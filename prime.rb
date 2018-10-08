@@ -1,4 +1,4 @@
-require pry
+require "pry"
 def prime?(integer)
   range = (2...integer).to_a
   if integer == 2
